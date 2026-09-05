@@ -1,4 +1,4 @@
-# Paper 3 - Final real empirical release
+# Paper - Final real empirical release
 
 **Title:** *When Should Machine Learning Trust the Semi-Empirical Mass Formula? Mechanism- and Observable-Dependent Tests Across the Nuclear Chart*
 
