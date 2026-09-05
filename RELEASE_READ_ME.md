@@ -4,7 +4,7 @@
 
 ## Release status
 
-This is the completed real-data Paper 3 reproducibility release. It uses the official unrounded AME2012, AME2016, and AME2020 mass/reaction tables; the controlled synthetic benchmark remains a separate earlier mechanism study and is not used as empirical evidence here.
+This is the completed real-data Paper reproducibility release. It uses the official unrounded AME2012, AME2016, and AME2020 mass/reaction tables; the controlled synthetic benchmark remains a separate earlier mechanism study and is not used as empirical evidence here.
 
 The final empirical integrity audit reports **85 PASS checks, 0 failures, and 1 disclosed nonblocking warning**. The warning is one structured MLP fit reaching the frozen maximum iteration count; the frozen five-seed ensemble was retained without post-hoc retuning and the limitation is stated in the manuscript.
 
