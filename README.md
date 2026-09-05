@@ -1,4 +1,4 @@
-# Paper 3 — SEMF/ML empirical reproducibility release
+# Paper  — SEMF/ML empirical reproducibility release
 
 This public repository contains the reproducibility materials for the manuscript *When Should Machine Learning Trust the Semi-Empirical Mass Formula?*
 
