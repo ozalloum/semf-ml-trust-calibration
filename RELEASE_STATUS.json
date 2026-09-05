@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "final_empirical_audit_pass_count": 85,
+  "failed_count": 0,
+  "warning_count": 1,
+  "freeze_sha256": "4c58f61fdfd868bcff38a009eb036ff8dfba5cbfea6ba0f1c4c34618a7be63d7",
+  "main_figures": 8,
+  "supplementary_figures": 5,
+  "final_pdf_pages": 13
+}

@@ -1,0 +1,94 @@
+Paper 3 final empirical audit: PASS
+PASS checks: 85
+Failed checks: 0
+Warnings: 1
+Freeze SHA-256: 4c58f61fdfd868bcff38a009eb036ff8dfba5cbfea6ba0f1c4c34618a7be63d7
+
+[PASS] 3B raw provenance PASS
+[PASS] 3B all nine raw AME files present
+[PASS] 3B no provenance errors
+[PASS] 3B raw file SHA-256 values still match
+[PASS] 3B AME mass parser row counts
+[PASS] 3B A=N+Z integrity
+[PASS] 3B no duplicate mass keys
+[PASS] 3B derived-observable reconstruction <=2 keV
+[PASS] 3B development membership =32 new primary
+[PASS] 3B locked confirmation membership =51 new primary
+[PASS] 3B G5 NuDat interface check PASS
+[PASS] 3B G5 has 35 comparisons
+[PASS] 3B G5 maximum discrepancy <2 keV
+[PASS] A11 browser-normalization note exists
+[PASS] 3C development PASS
+[PASS] 3C frozen hash exact :: 4c58f61fdfd868bcff38a009eb036ff8dfba5cbfea6ba0f1c4c34618a7be63d7
+[PASS] 3C development train/test sizes 2235/32
+[PASS] 3D BWN reproduction PASS
+[PASS] 3D BWN reproduction within 0.02 MeV
+[PASS] 3D reproduced BWN RMS ~0.886854 MeV
+[PASS] 3E lock created before scoring
+[PASS] 3E completed exactly once
+[PASS] 3E lock/final freeze hashes agree
+[PASS] 3E no-retuning flag preserved
+[PASS] 3E confirmation membership digest preserved
+[PASS] 3E confirmation train/test sizes 2271/51
+[PASS] 3E predictions checksum locked
+[PASS] 3E results checksum locked
+[PASS] 3E HGB residual headline exact
+[PASS] 3E MLP residual headline exact
+[PASS] 3E BWN historical claim labeled retrospective
+[PASS] 3F structured holdouts PASS
+[PASS] 3F exactly 25 regimes :: 25
+[PASS] 3G uncertainty/misspecification PASS
+[PASS] 3G.5 predeclared completeness PASS
+[PASS] 3G.5 did not reopen confirmation
+[PASS] A1 B/A endpoint executed
+[PASS] A2 term build-up executed
+[PASS] A2 term-removal executed
+[PASS] A3 chart/calibration diagnostics executed
+[PASS] protocol exists: PROTOCOL_AMENDMENT_A1.md
+[PASS] protocol exists: PROTOCOL_AMENDMENT_A2_VISUAL_TERM_DECOMPOSITION.md
+[PASS] protocol exists: PROTOCOL_AMENDMENT_A3_CALIBRATION_DOMAIN.md
+[PASS] protocol exists: PROTOCOL_IMPLEMENTATION_NOTE_A12_EXACT_CHAIN_BOOTSTRAP_OPTIMIZATION.md
+[PASS] protocol exists: PROTOCOL_IMPLEMENTATION_NOTE_A13_PREDECLARED_COMPLETENESS_EXECUTION.md
+[PASS] 3G locked confirmation CIs present
+[PASS] Table 2 HGB adaptive CI corrected
+[PASS] Table 2 MLP adaptive CI corrected
+[PASS] Sn HGB soft sign reversal preserved
+[PASS] 3H has 8 main figures :: ['Fig1_Historical_Confirmation_MAE.png', 'Fig2_Structured_Trust_with_95CI.png', 'Fig3_Observable_Dependent_Trust_Sn.png', 'Fig4_Sn_Chain_Bulk_and_Local_Observables.png', 'Fig5_SEMF_Term_Buildup_Residual_Maps.png', 'Fig6_Experimental_minus_SEMF_BA_Landscape.png', 'Fig7_Model_Form_and_Term_Removal.png', 'Fig8_Coefficient_Drift_and_Calibration_Domain.png']
+[PASS] 3H has 5 supplementary figures :: ['SuppFig_S1_Correlation_and_Conditioning.png', 'SuppFig_S2_Natural_Prior_Aging_Trust.png', 'SuppFig_S3_Light_Nucleus_Stress.png', 'SuppFig_S4_Local_Paired_Error_Maps_R0.png', 'SuppFig_S5_Observable_Trust_Matrix_HGB_Residual.png']
+[PASS] 3H figure-style rule recorded
+[PASS] final manuscript Markdown exists
+[PASS] final manuscript DOCX exists
+[PASS] final manuscript PDF exists
+[PASS] final manuscript contains corrected adaptive CIs
+[PASS] final manuscript excludes synthetic/smoke result language
+[PASS] final manuscript labels BWN historical use retrospective
+[PASS] final manuscript acknowledges single-chain bootstrap degeneracy
+[PASS] final manuscript acknowledges MLP iteration-limit warning
+[PASS] author/funding/COI remain explicit placeholders
+[PASS] final PDF opens and has 13 pages :: 13
+[PASS] compile analysis/bwn.py
+[PASS] compile analysis/common.py
+[PASS] compile analysis/common_pre_A12_exact_reference.py
+[PASS] compile analysis/run_all_remaining.py
+[PASS] compile analysis/stage3c_development.py
+[PASS] compile analysis/stage3d_bwn_gate.py
+[PASS] compile analysis/stage3e_confirmation.py
+[PASS] compile analysis/stage3f_structured_holdouts.py
+[PASS] compile analysis/stage3g5_predeclared_completeness.py
+[PASS] compile analysis/stage3g_uq_misspecification.py
+[PASS] compile analysis/stage3h_figures_and_manuscript.py
+[PASS] compile analysis/stage3h_final_figures.py
+[PASS] compile analysis/stage3i_audit_release.py
+[PASS] compile analysis/stage3i_final_empirical_audit.py
+[PASS] compile stage3b/acquire_ame.py
+[PASS] compile stage3b/ame_io.py
+[PASS] compile stage3b/build_data_products.py
+[PASS] compile stage3b/build_spotcheck_targets.py
+[PASS] compile stage3b/normalize_browser_saved_ame.py
+[PASS] compile stage3b/register_manual_provenance.py
+[PASS] compile stage3b/run_gate.py
+[PASS] compile stage3b/run_stage3b.py
+[PASS] compile stage3b/validate_spotchecks.py
+
+Warnings:
+[WARN] MLP convergence :: One structured MLP fit reached the frozen maximum iteration count; the frozen five-seed ensemble was retained without post-hoc retuning and this is disclosed in Limitations.

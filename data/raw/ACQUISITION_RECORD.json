@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "acquisition_mode": "manual_official_download_attested",
+      "basename": "mass_1.mas20",
+      "bytes": 472648,
+      "kind": "mass",
+      "lines": 3594,
+      "local_path": "data/raw/2020/mass_1.mas20",
+      "sha256": "e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307",
+      "source_attestation": "User supplied the file and selected official source=iaea.",
+      "url": "https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt",
+      "vintage": 2020
+    },
+    {
+      "acquisition_mode": "manual_official_download_attested",
+      "basename": "rct1.mas20",
+      "bytes": 511515,
+      "kind": "rct1",
+      "lines": 3593,
+      "local_path": "data/raw/2020/rct1.mas20",
+      "sha256": "e6ba1d2256f90053464c48e24d44691828dc49820ce64054aa418d834cc18e90",
+      "source_attestation": "User supplied the file and selected official source=iaea.",
+      "url": "https://www-nds.iaea.org/amdc/ame2020/rct1.mas20.txt",
+      "vintage": 2020
+    },
+    {
+      "acquisition_mode": "manual_official_download_attested",
+      "basename": "rct2_1.mas20",
+      "bytes": 510935,
+      "kind": "rct2",
+      "lines": 3611,
+      "local_path": "data/raw/2020/rct2_1.mas20",
+      "sha256": "78765c7b3f3c991ce2b6ff3b5c086a135aad1807d07819f806ab9a9150a4c2c7",
+      "source_attestation": "User supplied the file and selected official source=iaea.",
+      "url": "https://www-nds.iaea.org/amdc/ame2020/rct2_1.mas20.txt",
+      "vintage": 2020
+    },
+    {
+      "acquisition_mode": "manual_official_download_attested",
+      "basename": "mass16.txt",
+      "bytes": 418937,
+      "kind": "mass",
+      "lines": 3475,
+      "local_path": "data/raw/2016/mass16.txt",
+      "sha256": "2167f57a2a98331e4649b2dd2b658a9006ed4fba1975729ebfe52a42b4b9218a",
+      "source_attestation": "User supplied the file and selected official source=iaea.",
+      "url": "https://www-nds.iaea.org/amdc/ame2016/mass16.txt",
+      "vintage": 2016
+    },
+    {
+      "acquisition_mode": "manual_official_download_attested",
+      "basename": "rct1-16.txt",
+      "bytes": 411569,
+      "kind": "rct1",
+      "lines": 3475,
+      "local_path": "data/raw/2016/rct1-16.txt",
+      "sha256": "f0200d338083021d6077f768390f6447f8dc32f4677aef27a23a8ad4a201b853",
+      "source_attestation": "User supplied the file and selected official source=iaea.",
+      "url": "https://www-nds.iaea.org/amdc/ame2016/rct1-16.txt",
+      "vintage": 2016
+    },
+    {
+      "acquisition_mode": "manual_official_download_attested",
+      "basename": "rct2-16.txt",
+      "bytes": 413404,
+      "kind": "rct2",
+      "lines": 3475,
+      "local_path": "data/raw/2016/rct2-16.txt",
+      "sha256": "cd7ff26ccde00659e2101afd8bf731e2e30a0645ac54e4ca402d5e17c49f6f0f",
+      "source_attestation": "User supplied the file and selected official source=iaea.",
+      "url": "https://www-nds.iaea.org/amdc/ame2016/rct2-16.txt",
+      "vintage": 2016
+    },
+    {
+      "acquisition_mode": "manual_official_download_attested",
+      "basename": "mass.mas12",
+      "bytes": 408663,
+      "kind": "mass",
+      "lines": 3392,
+      "local_path": "data/raw/2012/mass.mas12",
+      "sha256": "81e887c71c2c54c76caea36fd861b195a7f3eeb77d04b520e05fa97e0eedd7f3",
+      "source_attestation": "User supplied the file and selected official source=iaea.",
+      "url": "https://www-nds.iaea.org/amdc/ame2012/mass.mas12",
+      "vintage": 2012
+    },
+    {
+      "acquisition_mode": "manual_official_download_attested",
+      "basename": "rct1.mas12",
+      "bytes": 401622,
+      "kind": "rct1",
+      "lines": 3392,
+      "local_path": "data/raw/2012/rct1.mas12",
+      "sha256": "57695d25a8079c097e3b97c12a2b8d87d235cba52f6b1e0ebe97e2c3ad5116c8",
+      "source_attestation": "User supplied the file and selected official source=iaea.",
+      "url": "https://www-nds.iaea.org/amdc/ame2012/rct1.mas12",
+      "vintage": 2012
+    },
+    {
+      "acquisition_mode": "manual_official_download_attested",
+      "basename": "rct2.mas12",
+      "bytes": 403443,
+      "kind": "rct2",
+      "lines": 3392,
+      "local_path": "data/raw/2012/rct2.mas12",
+      "sha256": "f0fe09cb2629caca57815af1490803b43befde25edd1820b9816c48c305e5902",
+      "source_attestation": "User supplied the file and selected official source=iaea.",
+      "url": "https://www-nds.iaea.org/amdc/ame2012/rct2.mas12",
+      "vintage": 2012
+    }
+  ],
+  "mode": "manual_official_download_attested"
+}

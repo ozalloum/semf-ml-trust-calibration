@@ -1,0 +1,14 @@
+{
+  "completed_unix": 1788162982.5655766,
+  "confirmation_membership_sha256": "151e42831363ccef6e7e67cea3372b3c6e0ebeab5049545007e20d5bcd587306",
+  "created_unix": 1788162864.740706,
+  "freeze_sha256": "4c58f61fdfd868bcff38a009eb036ff8dfba5cbfea6ba0f1c4c34618a7be63d7",
+  "no_retuning_permitted": true,
+  "predictions_sha256": "4711f736de1bdadd519fd152cf2902457a6743611ac2eeb937abd349911c921d",
+  "results_sha256": "ebac5a6f0578fa2ad9f6f1d88708530160a92dc9024e969bc4210a359d3e882a",
+  "smoke_mode": false,
+  "stage": "3E",
+  "status": "COMPLETED_ONCE",
+  "test_population_file_sha256": "30d9ae54e747550578a2e3357689cea5f48ecc7ad9e1f5c58b7f1215cc50dccc",
+  "training_sha256": "b9230b013eb2be6ec5cb9cc551e723ec3315c960b746eeb7b8cb9d9144e8c2d9"
+}

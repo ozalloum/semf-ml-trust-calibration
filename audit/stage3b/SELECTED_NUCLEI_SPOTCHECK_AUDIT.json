@@ -1,0 +1,254 @@
+{
+  "tolerance_keV": 2.0,
+  "measured_target_rows": 5,
+  "comparison_count": 35,
+  "errors": [],
+  "comparisons": [
+    {
+      "selection_role": "anchor_48Ca",
+      "observable": "mass_excess_keV",
+      "ame": -44224.868,
+      "reference": -44224.9,
+      "abs_diff_keV": 0.0319999999992433
+    },
+    {
+      "selection_role": "anchor_48Ca",
+      "observable": "be_per_A_keV",
+      "ame": 8666.6916,
+      "reference": 8666.7,
+      "abs_diff_keV": 0.008400000000619912
+    },
+    {
+      "selection_role": "anchor_48Ca",
+      "observable": "Sn_keV",
+      "ame": 9951.521200000076,
+      "reference": 9951.5,
+      "abs_diff_keV": 0.021200000075623393
+    },
+    {
+      "selection_role": "anchor_48Ca",
+      "observable": "Sp_keV",
+      "ame": 15801.860300000058,
+      "reference": 15801.9,
+      "abs_diff_keV": 0.039699999941149144
+    },
+    {
+      "selection_role": "anchor_48Ca",
+      "observable": "S2n_keV",
+      "ame": 17227.896000000008,
+      "reference": 17227.9,
+      "abs_diff_keV": 0.00399999999353895
+    },
+    {
+      "selection_role": "anchor_48Ca",
+      "observable": "S2p_keV",
+      "ame": 29031.55580000003,
+      "reference": 29031.6,
+      "abs_diff_keV": 0.04419999996753177
+    },
+    {
+      "selection_role": "anchor_48Ca",
+      "observable": "Qalpha_keV",
+      "ame": -13976.52600000007,
+      "reference": -13976.5,
+      "abs_diff_keV": 0.026000000070780516
+    },
+    {
+      "selection_role": "anchor_132Sn",
+      "observable": "mass_excess_keV",
+      "ame": -76546.554,
+      "reference": -76546.6,
+      "abs_diff_keV": 0.046000000002095476
+    },
+    {
+      "selection_role": "anchor_132Sn",
+      "observable": "be_per_A_keV",
+      "ame": 8354.8726,
+      "reference": 8354.9,
+      "abs_diff_keV": 0.027399999999033753
+    },
+    {
+      "selection_role": "anchor_132Sn",
+      "observable": "Sn_keV",
+      "ame": 7353.285900000017,
+      "reference": 7353.3,
+      "abs_diff_keV": 0.014099999983045564
+    },
+    {
+      "selection_role": "anchor_132Sn",
+      "observable": "Sp_keV",
+      "ame": 15811.156799999997,
+      "reference": 15811.2,
+      "abs_diff_keV": 0.04320000000370783
+    },
+    {
+      "selection_role": "anchor_132Sn",
+      "observable": "S2n_keV",
+      "ame": 12556.973200000124,
+      "reference": 12557.0,
+      "abs_diff_keV": 0.026799999875947833
+    },
+    {
+      "selection_role": "anchor_132Sn",
+      "observable": "S2p_keV",
+      "ame": 30006.8992000001,
+      "reference": 30006.9,
+      "abs_diff_keV": 0.0007999998997547664
+    },
+    {
+      "selection_role": "anchor_132Sn",
+      "observable": "Qalpha_keV",
+      "ame": -11733.223200000124,
+      "reference": -11733.2,
+      "abs_diff_keV": 0.02320000012332457
+    },
+    {
+      "selection_role": "anchor_208Pb",
+      "observable": "mass_excess_keV",
+      "ame": -21748.519,
+      "reference": -21748.5,
+      "abs_diff_keV": 0.01900000000023283
+    },
+    {
+      "selection_role": "anchor_208Pb",
+      "observable": "be_per_A_keV",
+      "ame": 7867.453,
+      "reference": 7867.5,
+      "abs_diff_keV": 0.04699999999957072
+    },
+    {
+      "selection_role": "anchor_208Pb",
+      "observable": "Sn_keV",
+      "ame": 7367.879200000083,
+      "reference": 7367.9,
+      "abs_diff_keV": 0.02079999991656223
+    },
+    {
+      "selection_role": "anchor_208Pb",
+      "observable": "Sp_keV",
+      "ame": 8003.058700000169,
+      "reference": 8003.1,
+      "abs_diff_keV": 0.04129999983160815
+    },
+    {
+      "selection_role": "anchor_208Pb",
+      "observable": "S2n_keV",
+      "ame": 14105.652000000235,
+      "reference": 14105.7,
+      "abs_diff_keV": 0.04799999976603431
+    },
+    {
+      "selection_role": "anchor_208Pb",
+      "observable": "S2p_keV",
+      "ame": 15380.730200000107,
+      "reference": 15380.7,
+      "abs_diff_keV": 0.030200000106560765
+    },
+    {
+      "selection_role": "anchor_208Pb",
+      "observable": "Qalpha_keV",
+      "ame": 516.7203999999911,
+      "reference": 516.7,
+      "abs_diff_keV": 0.02039999999101383
+    },
+    {
+      "selection_role": "midshell_medium_deterministic",
+      "observable": "mass_excess_keV",
+      "ame": -61172.641,
+      "reference": -61172.6,
+      "abs_diff_keV": 0.04100000000471482
+    },
+    {
+      "selection_role": "midshell_medium_deterministic",
+      "observable": "be_per_A_keV",
+      "ame": 8371.9172,
+      "reference": 8371.9,
+      "abs_diff_keV": 0.01720000000022992
+    },
+    {
+      "selection_role": "midshell_medium_deterministic",
+      "observable": "Sn_keV",
+      "ame": 4189.1739000000525,
+      "reference": 4189.2,
+      "abs_diff_keV": 0.026099999947291508
+    },
+    {
+      "selection_role": "midshell_medium_deterministic",
+      "observable": "Sp_keV",
+      "ame": 13136.703300000052,
+      "reference": 13136.7,
+      "abs_diff_keV": 0.003300000051240204
+    },
+    {
+      "selection_role": "midshell_medium_deterministic",
+      "observable": "S2n_keV",
+      "ame": 9994.044400000013,
+      "reference": 9994.0,
+      "abs_diff_keV": 0.044400000013411045
+    },
+    {
+      "selection_role": "midshell_medium_deterministic",
+      "observable": "S2p_keV",
+      "ame": 29484.704400000046,
+      "reference": 29484.7,
+      "abs_diff_keV": 0.004400000045279739
+    },
+    {
+      "selection_role": "midshell_medium_deterministic",
+      "observable": "Qalpha_keV",
+      "ame": -9228.410799999954,
+      "reference": -9228.4,
+      "abs_diff_keV": 0.010799999954542727
+    },
+    {
+      "selection_role": "midshell_heavy_deterministic",
+      "observable": "mass_excess_keV",
+      "ame": -65967.649,
+      "reference": -65967.6,
+      "abs_diff_keV": 0.04899999999906868
+    },
+    {
+      "selection_role": "midshell_heavy_deterministic",
+      "observable": "be_per_A_keV",
+      "ame": 8158.7129,
+      "reference": 8158.7,
+      "abs_diff_keV": 0.012900000000627188
+    },
+    {
+      "selection_role": "midshell_heavy_deterministic",
+      "observable": "Sn_keV",
+      "ame": 7658.123600000283,
+      "reference": 7658.1,
+      "abs_diff_keV": 0.023600000282385736
+    },
+    {
+      "selection_role": "midshell_heavy_deterministic",
+      "observable": "Sp_keV",
+      "ame": 8660.867000000086,
+      "reference": 8660.9,
+      "abs_diff_keV": 0.032999999913954525
+    },
+    {
+      "selection_role": "midshell_heavy_deterministic",
+      "observable": "S2n_keV",
+      "ame": 13929.124600000214,
+      "reference": 13929.1,
+      "abs_diff_keV": 0.024600000213467865
+    },
+    {
+      "selection_role": "midshell_heavy_deterministic",
+      "observable": "S2p_keV",
+      "ame": 16264.873000000138,
+      "reference": 16264.9,
+      "abs_diff_keV": 0.02699999986180046
+    },
+    {
+      "selection_role": "midshell_heavy_deterministic",
+      "observable": "Qalpha_keV",
+      "ame": -450.51720000011846,
+      "reference": -450.5,
+      "abs_diff_keV": 0.01720000011846423
+    }
+  ],
+  "status": "PASS"
+}

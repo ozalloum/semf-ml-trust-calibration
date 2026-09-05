@@ -1,0 +1,8 @@
+{
+  "bootstrap_refits": 5000,
+  "bwn_shell_control_enabled": true,
+  "correlated_draws": 1000,
+  "smoke_mode": false,
+  "stage": "3G",
+  "status": "PASS"
+}

@@ -1,0 +1,33 @@
+{
+  "confirmation_reopened": false,
+  "diagnostic_global_AME2020_semf_fit": {
+    "coef": {
+      "a_a": 23.22909046516164,
+      "a_c": 0.7151955004397407,
+      "a_p": 11.596396026772116,
+      "a_s": 17.85062439689784,
+      "a_v": 15.721819394357787
+    },
+    "condition_number": 11796.87062077454,
+    "mae_train": 2.190067692093162,
+    "n": 2339,
+    "rank": 5,
+    "rmse_train": 2.9134414115328235,
+    "singular_values": [
+      40508.67754851365,
+      1236.5282881160017,
+      136.25577117429222,
+      29.459895561965062,
+      3.433849437763353
+    ]
+  },
+  "n_BA_rows": 350,
+  "n_historical_trust_rows": 135,
+  "n_landscape_rows": 2339,
+  "n_local_map_rows": 4092,
+  "n_term_buildup_rows": 125,
+  "n_term_removal_rows": 125,
+  "purpose": "execution of already-predeclared A1-A3 diagnostics omitted from the original reporting script",
+  "stage": "3G.5",
+  "status": "PASS"
+}

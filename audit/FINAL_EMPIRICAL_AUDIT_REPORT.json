@@ -1,0 +1,377 @@
+{
+  "checks": [
+    {
+      "check": "3B raw provenance PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "3B all nine raw AME files present",
+      "status": "PASS"
+    },
+    {
+      "check": "3B no provenance errors",
+      "status": "PASS"
+    },
+    {
+      "check": "3B raw file SHA-256 values still match",
+      "status": "PASS"
+    },
+    {
+      "check": "3B AME mass parser row counts",
+      "status": "PASS"
+    },
+    {
+      "check": "3B A=N+Z integrity",
+      "status": "PASS"
+    },
+    {
+      "check": "3B no duplicate mass keys",
+      "status": "PASS"
+    },
+    {
+      "check": "3B derived-observable reconstruction <=2 keV",
+      "status": "PASS"
+    },
+    {
+      "check": "3B development membership =32 new primary",
+      "status": "PASS"
+    },
+    {
+      "check": "3B locked confirmation membership =51 new primary",
+      "status": "PASS"
+    },
+    {
+      "check": "3B G5 NuDat interface check PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "3B G5 has 35 comparisons",
+      "status": "PASS"
+    },
+    {
+      "check": "3B G5 maximum discrepancy <2 keV",
+      "status": "PASS"
+    },
+    {
+      "check": "A11 browser-normalization note exists",
+      "status": "PASS"
+    },
+    {
+      "check": "3C development PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "3C frozen hash exact",
+      "detail": "4c58f61fdfd868bcff38a009eb036ff8dfba5cbfea6ba0f1c4c34618a7be63d7",
+      "status": "PASS"
+    },
+    {
+      "check": "3C development train/test sizes 2235/32",
+      "status": "PASS"
+    },
+    {
+      "check": "3D BWN reproduction PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "3D BWN reproduction within 0.02 MeV",
+      "status": "PASS"
+    },
+    {
+      "check": "3D reproduced BWN RMS ~0.886854 MeV",
+      "status": "PASS"
+    },
+    {
+      "check": "3E lock created before scoring",
+      "status": "PASS"
+    },
+    {
+      "check": "3E completed exactly once",
+      "status": "PASS"
+    },
+    {
+      "check": "3E lock/final freeze hashes agree",
+      "status": "PASS"
+    },
+    {
+      "check": "3E no-retuning flag preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "3E confirmation membership digest preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "3E confirmation train/test sizes 2271/51",
+      "status": "PASS"
+    },
+    {
+      "check": "3E predictions checksum locked",
+      "status": "PASS"
+    },
+    {
+      "check": "3E results checksum locked",
+      "status": "PASS"
+    },
+    {
+      "check": "3E HGB residual headline exact",
+      "status": "PASS"
+    },
+    {
+      "check": "3E MLP residual headline exact",
+      "status": "PASS"
+    },
+    {
+      "check": "3E BWN historical claim labeled retrospective",
+      "status": "PASS"
+    },
+    {
+      "check": "3F structured holdouts PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "3F exactly 25 regimes",
+      "detail": 25,
+      "status": "PASS"
+    },
+    {
+      "check": "3G uncertainty/misspecification PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "3G.5 predeclared completeness PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "3G.5 did not reopen confirmation",
+      "status": "PASS"
+    },
+    {
+      "check": "A1 B/A endpoint executed",
+      "status": "PASS"
+    },
+    {
+      "check": "A2 term build-up executed",
+      "status": "PASS"
+    },
+    {
+      "check": "A2 term-removal executed",
+      "status": "PASS"
+    },
+    {
+      "check": "A3 chart/calibration diagnostics executed",
+      "status": "PASS"
+    },
+    {
+      "check": "protocol exists: PROTOCOL_AMENDMENT_A1.md",
+      "status": "PASS"
+    },
+    {
+      "check": "protocol exists: PROTOCOL_AMENDMENT_A2_VISUAL_TERM_DECOMPOSITION.md",
+      "status": "PASS"
+    },
+    {
+      "check": "protocol exists: PROTOCOL_AMENDMENT_A3_CALIBRATION_DOMAIN.md",
+      "status": "PASS"
+    },
+    {
+      "check": "protocol exists: PROTOCOL_IMPLEMENTATION_NOTE_A12_EXACT_CHAIN_BOOTSTRAP_OPTIMIZATION.md",
+      "status": "PASS"
+    },
+    {
+      "check": "protocol exists: PROTOCOL_IMPLEMENTATION_NOTE_A13_PREDECLARED_COMPLETENESS_EXECUTION.md",
+      "status": "PASS"
+    },
+    {
+      "check": "3G locked confirmation CIs present",
+      "status": "PASS"
+    },
+    {
+      "check": "Table 2 HGB adaptive CI corrected",
+      "status": "PASS"
+    },
+    {
+      "check": "Table 2 MLP adaptive CI corrected",
+      "status": "PASS"
+    },
+    {
+      "check": "Sn HGB soft sign reversal preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "3H has 8 main figures",
+      "detail": [
+        "Fig1_Historical_Confirmation_MAE.png",
+        "Fig2_Structured_Trust_with_95CI.png",
+        "Fig3_Observable_Dependent_Trust_Sn.png",
+        "Fig4_Sn_Chain_Bulk_and_Local_Observables.png",
+        "Fig5_SEMF_Term_Buildup_Residual_Maps.png",
+        "Fig6_Experimental_minus_SEMF_BA_Landscape.png",
+        "Fig7_Model_Form_and_Term_Removal.png",
+        "Fig8_Coefficient_Drift_and_Calibration_Domain.png"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "3H has 5 supplementary figures",
+      "detail": [
+        "SuppFig_S1_Correlation_and_Conditioning.png",
+        "SuppFig_S2_Natural_Prior_Aging_Trust.png",
+        "SuppFig_S3_Light_Nucleus_Stress.png",
+        "SuppFig_S4_Local_Paired_Error_Maps_R0.png",
+        "SuppFig_S5_Observable_Trust_Matrix_HGB_Residual.png"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "3H figure-style rule recorded",
+      "status": "PASS"
+    },
+    {
+      "check": "final manuscript Markdown exists",
+      "status": "PASS"
+    },
+    {
+      "check": "final manuscript DOCX exists",
+      "status": "PASS"
+    },
+    {
+      "check": "final manuscript PDF exists",
+      "status": "PASS"
+    },
+    {
+      "check": "final manuscript contains corrected adaptive CIs",
+      "status": "PASS"
+    },
+    {
+      "check": "final manuscript excludes synthetic/smoke result language",
+      "status": "PASS"
+    },
+    {
+      "check": "final manuscript labels BWN historical use retrospective",
+      "status": "PASS"
+    },
+    {
+      "check": "final manuscript acknowledges single-chain bootstrap degeneracy",
+      "status": "PASS"
+    },
+    {
+      "check": "final manuscript acknowledges MLP iteration-limit warning",
+      "status": "PASS"
+    },
+    {
+      "check": "author/funding/COI remain explicit placeholders",
+      "status": "PASS"
+    },
+    {
+      "check": "final PDF opens and has 13 pages",
+      "detail": 13,
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/bwn.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/common.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/common_pre_A12_exact_reference.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/run_all_remaining.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3c_development.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3d_bwn_gate.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3e_confirmation.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3f_structured_holdouts.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3g5_predeclared_completeness.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3g_uq_misspecification.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3h_figures_and_manuscript.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3h_final_figures.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3i_audit_release.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile analysis/stage3i_final_empirical_audit.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile stage3b/acquire_ame.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile stage3b/ame_io.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile stage3b/build_data_products.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile stage3b/build_spotcheck_targets.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile stage3b/normalize_browser_saved_ame.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile stage3b/register_manual_provenance.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile stage3b/run_gate.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile stage3b/run_stage3b.py",
+      "status": "PASS"
+    },
+    {
+      "check": "compile stage3b/validate_spotchecks.py",
+      "status": "PASS"
+    }
+  ],
+  "claim_boundary": "All empirical claims trace to frozen AME products, predeclared analyses, and the locked one-time AME2016->AME2020 confirmation. BWN historical scores are retrospective.",
+  "failed_count": 0,
+  "freeze_sha256": "4c58f61fdfd868bcff38a009eb036ff8dfba5cbfea6ba0f1c4c34618a7be63d7",
+  "pass_count": 85,
+  "stage": "3I-FINAL-EMPIRICAL",
+  "status": "PASS",
+  "warning_count": 1,
+  "warnings": [
+    {
+      "detail": "One structured MLP fit reached the frozen maximum iteration count; the frozen five-seed ensemble was retained without post-hoc retuning and this is disclosed in Limitations.",
+      "warning": "MLP convergence"
+    }
+  ]
+}

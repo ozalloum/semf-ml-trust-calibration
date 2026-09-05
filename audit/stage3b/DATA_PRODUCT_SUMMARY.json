@@ -1,0 +1,239 @@
+{
+  "derived_observable_consistency": {
+    "2012": {
+      "fail_gt_2keV": 0,
+      "max_abs_diff_keV": 0.2480000002497036,
+      "n": 11068,
+      "p95_abs_diff_keV": 0.1279999999787833
+    },
+    "2016": {
+      "fail_gt_2keV": 0,
+      "max_abs_diff_keV": 0.24000000020532752,
+      "n": 11390,
+      "p95_abs_diff_keV": 0.12600000020120206
+    },
+    "2020": {
+      "fail_gt_2keV": 0,
+      "max_abs_diff_keV": 0.023599999854923226,
+      "n": 11626,
+      "p95_abs_diff_keV": 0.012700000025688496
+    }
+  },
+  "historical_counts": {
+    "2012_to_2016": {
+      "changed": 2004,
+      "new": 63,
+      "unchanged": 431
+    },
+    "2012_to_2016_new_primary": 32,
+    "2016_to_2020": {
+      "changed": 2430,
+      "new": 74,
+      "unchanged": 46
+    },
+    "2016_to_2020_new_primary_LOCKED_CONFIRMATION": 51
+  },
+  "historical_label_rule": "new=absent as measured non-estimated in old vintage; unchanged=same mass excess after rounding both vintages to the coarser reported decimal precision; changed=otherwise",
+  "mass_audits": {
+    "2012": {
+      "file_structure": {
+        "A_identity_failures": 0,
+        "candidate_rows": 3353,
+        "empty_element": 0,
+        "expected_min_width": 123,
+        "max_candidate_width": 123,
+        "min_candidate_width": 123,
+        "parsed_rows": 3353,
+        "short_width_candidates": 0,
+        "unparsed_candidate_rows": 0
+      },
+      "parsed": {
+        "A_identity_failures": 0,
+        "duplicates": 0,
+        "empty_element": 0,
+        "estimated_be_rows": 915,
+        "estimated_mass_rows": 915,
+        "missing_be_rows": 0,
+        "missing_mass_rows": 0,
+        "rows": 3353,
+        "unique_keys": 3353
+      }
+    },
+    "2016": {
+      "file_structure": {
+        "A_identity_failures": 0,
+        "candidate_rows": 3436,
+        "empty_element": 0,
+        "expected_min_width": 123,
+        "max_candidate_width": 123,
+        "min_candidate_width": 123,
+        "parsed_rows": 3436,
+        "short_width_candidates": 0,
+        "unparsed_candidate_rows": 0
+      },
+      "parsed": {
+        "A_identity_failures": 0,
+        "duplicates": 0,
+        "empty_element": 0,
+        "estimated_be_rows": 938,
+        "estimated_mass_rows": 938,
+        "missing_be_rows": 0,
+        "missing_mass_rows": 0,
+        "rows": 3436,
+        "unique_keys": 3436
+      }
+    },
+    "2020": {
+      "file_structure": {
+        "A_identity_failures": 0,
+        "candidate_rows": 3558,
+        "empty_element": 0,
+        "expected_min_width": 135,
+        "max_candidate_width": 135,
+        "min_candidate_width": 135,
+        "parsed_rows": 3558,
+        "short_width_candidates": 0,
+        "unparsed_candidate_rows": 0
+      },
+      "parsed": {
+        "A_identity_failures": 0,
+        "duplicates": 0,
+        "empty_element": 0,
+        "estimated_be_rows": 1008,
+        "estimated_mass_rows": 1008,
+        "missing_be_rows": 0,
+        "missing_mass_rows": 0,
+        "rows": 3558,
+        "unique_keys": 3558
+      }
+    }
+  },
+  "reaction_audits": {
+    "2012": {
+      "rct1": {
+        "file_structure": {
+          "A_identity_failures": 0,
+          "candidate_rows": 3353,
+          "empty_element": 0,
+          "expected_min_width": 120,
+          "max_candidate_width": 120,
+          "min_candidate_width": 120,
+          "parsed_rows": 3353,
+          "short_width_candidates": 0,
+          "unparsed_candidate_rows": 0
+        },
+        "parsed": {
+          "A_identity_failures": 0,
+          "duplicates": 0,
+          "empty_element": 0,
+          "rows": 3353,
+          "unique_keys": 3353
+        }
+      },
+      "rct2": {
+        "file_structure": {
+          "A_identity_failures": 0,
+          "candidate_rows": 3353,
+          "empty_element": 0,
+          "expected_min_width": 120,
+          "max_candidate_width": 120,
+          "min_candidate_width": 120,
+          "parsed_rows": 3353,
+          "short_width_candidates": 0,
+          "unparsed_candidate_rows": 0
+        },
+        "parsed": {
+          "A_identity_failures": 0,
+          "duplicates": 0,
+          "empty_element": 0,
+          "rows": 3353,
+          "unique_keys": 3353
+        }
+      }
+    },
+    "2016": {
+      "rct1": {
+        "file_structure": {
+          "A_identity_failures": 0,
+          "candidate_rows": 3436,
+          "empty_element": 0,
+          "expected_min_width": 120,
+          "max_candidate_width": 120,
+          "min_candidate_width": 120,
+          "parsed_rows": 3436,
+          "short_width_candidates": 0,
+          "unparsed_candidate_rows": 0
+        },
+        "parsed": {
+          "A_identity_failures": 0,
+          "duplicates": 0,
+          "empty_element": 0,
+          "rows": 3436,
+          "unique_keys": 3436
+        }
+      },
+      "rct2": {
+        "file_structure": {
+          "A_identity_failures": 0,
+          "candidate_rows": 3436,
+          "empty_element": 0,
+          "expected_min_width": 120,
+          "max_candidate_width": 120,
+          "min_candidate_width": 120,
+          "parsed_rows": 3436,
+          "short_width_candidates": 0,
+          "unparsed_candidate_rows": 0
+        },
+        "parsed": {
+          "A_identity_failures": 0,
+          "duplicates": 0,
+          "empty_element": 0,
+          "rows": 3436,
+          "unique_keys": 3436
+        }
+      }
+    },
+    "2020": {
+      "rct1": {
+        "file_structure": {
+          "A_identity_failures": 0,
+          "candidate_rows": 3558,
+          "empty_element": 0,
+          "expected_min_width": 144,
+          "max_candidate_width": 144,
+          "min_candidate_width": 144,
+          "parsed_rows": 3558,
+          "short_width_candidates": 0,
+          "unparsed_candidate_rows": 0
+        },
+        "parsed": {
+          "A_identity_failures": 0,
+          "duplicates": 0,
+          "empty_element": 0,
+          "rows": 3558,
+          "unique_keys": 3558
+        }
+      },
+      "rct2": {
+        "file_structure": {
+          "A_identity_failures": 0,
+          "candidate_rows": 3558,
+          "empty_element": 0,
+          "expected_min_width": 144,
+          "max_candidate_width": 144,
+          "min_candidate_width": 144,
+          "parsed_rows": 3558,
+          "short_width_candidates": 0,
+          "unparsed_candidate_rows": 0
+        },
+        "parsed": {
+          "A_identity_failures": 0,
+          "duplicates": 0,
+          "empty_element": 0,
+          "rows": 3558,
+          "unique_keys": 3558
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "freeze_date": "2026-08-31",
+  "rule": "Try IAEA NDS mirror first, then AMDC; preserve downloaded bytes unchanged and record the successful source URL and SHA-256.",
+  "files": [
+    {"vintage": 2020, "kind": "mass", "basename": "mass_1.mas20", "urls": ["https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt", "https://amdc.impcas.ac.cn/masstables/Ame2020/mass_1.mas20"]},
+    {"vintage": 2020, "kind": "rct1", "basename": "rct1.mas20", "urls": ["https://www-nds.iaea.org/amdc/ame2020/rct1.mas20.txt", "https://amdc.impcas.ac.cn/masstables/Ame2020/rct1.mas20"]},
+    {"vintage": 2020, "kind": "rct2", "basename": "rct2_1.mas20", "urls": ["https://www-nds.iaea.org/amdc/ame2020/rct2_1.mas20.txt", "https://amdc.impcas.ac.cn/masstables/Ame2020/rct2_1.mas20"]},
+    {"vintage": 2016, "kind": "mass", "basename": "mass16.txt", "urls": ["https://www-nds.iaea.org/amdc/ame2016/mass16.txt", "https://amdc.impcas.ac.cn/masstables/Ame2016/mass16.txt"]},
+    {"vintage": 2016, "kind": "rct1", "basename": "rct1-16.txt", "urls": ["https://www-nds.iaea.org/amdc/ame2016/rct1-16.txt", "https://amdc.impcas.ac.cn/masstables/Ame2016/rct1-16.txt"]},
+    {"vintage": 2016, "kind": "rct2", "basename": "rct2-16.txt", "urls": ["https://www-nds.iaea.org/amdc/ame2016/rct2-16.txt", "https://amdc.impcas.ac.cn/masstables/Ame2016/rct2-16.txt"]},
+    {"vintage": 2012, "kind": "mass", "basename": "mass.mas12", "urls": ["https://www-nds.iaea.org/amdc/ame2012/mass.mas12", "https://www-nds.iaea.org/amdc/masstables/Ame2012/mass.mas12", "https://amdc.impcas.ac.cn/masstables/ame2012/mass.mas12"]},
+    {"vintage": 2012, "kind": "rct1", "basename": "rct1.mas12", "urls": ["https://www-nds.iaea.org/amdc/ame2012/rct1.mas12", "https://www-nds.iaea.org/amdc/masstables/Ame2012/rct1.mas12", "https://amdc.impcas.ac.cn/masstables/ame2012/rct1.mas12"]},
+    {"vintage": 2012, "kind": "rct2", "basename": "rct2.mas12", "urls": ["https://www-nds.iaea.org/amdc/ame2012/rct2.mas12", "https://www-nds.iaea.org/amdc/masstables/Ame2012/rct2.mas12", "https://amdc.impcas.ac.cn/masstables/ame2012/rct2.mas12"]}
+  ]
+}

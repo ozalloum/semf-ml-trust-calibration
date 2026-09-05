@@ -1,0 +1,7 @@
+{
+  "development_test_n": 32,
+  "freeze_sha256": "4c58f61fdfd868bcff38a009eb036ff8dfba5cbfea6ba0f1c4c34618a7be63d7",
+  "smoke_mode": false,
+  "status": "PASS",
+  "train_n": 2235
+}

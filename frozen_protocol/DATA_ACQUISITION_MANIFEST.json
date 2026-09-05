@@ -1,0 +1,15 @@
+{
+  "freeze_date": "2026-08-30",
+  "authoritative_root": "https://amdc.impcas.ac.cn/masstables/",
+  "files": [
+    {"vintage": 2020, "kind": "mass", "basename": "mass_1.mas20", "amdc_url": "https://amdc.impcas.ac.cn/masstables/Ame2020/mass_1.mas20", "iaea_mirror": "https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt", "format_family": "AME2020"},
+    {"vintage": 2020, "kind": "rct1", "basename": "rct1.mas20", "amdc_url": "https://amdc.impcas.ac.cn/masstables/Ame2020/rct1.mas20", "format_family": "AME2020"},
+    {"vintage": 2020, "kind": "rct2", "basename": "rct2_1.mas20", "amdc_url": "https://amdc.impcas.ac.cn/masstables/Ame2020/rct2_1.mas20", "format_family": "AME2020"},
+    {"vintage": 2016, "kind": "mass", "basename": "mass16.txt", "amdc_url": "https://amdc.impcas.ac.cn/masstables/Ame2016/mass16.txt", "format_family": "AME2016"},
+    {"vintage": 2016, "kind": "rct1", "basename": "rct1-16.txt", "amdc_url": "https://amdc.impcas.ac.cn/masstables/Ame2016/rct1-16.txt", "format_family": "AME2016"},
+    {"vintage": 2016, "kind": "rct2", "basename": "rct2-16.txt", "amdc_url": "https://amdc.impcas.ac.cn/masstables/Ame2016/rct2-16.txt", "format_family": "AME2016"},
+    {"vintage": 2012, "kind": "mass", "basename": "mass.mas12", "amdc_url": "https://amdc.impcas.ac.cn/masstables/ame2012/mass.mas12", "format_family": "AME2012"},
+    {"vintage": 2012, "kind": "rct1", "basename": "rct1.mas12", "amdc_url": "https://amdc.impcas.ac.cn/masstables/ame2012/rct1.mas12", "format_family": "AME2012"},
+    {"vintage": 2012, "kind": "rct2", "basename": "rct2.mas12", "amdc_url": "https://amdc.impcas.ac.cn/masstables/ame2012/rct2.mas12", "format_family": "AME2012"}
+  ]
+}

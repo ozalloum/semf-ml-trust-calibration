@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "reason": "Browser/manual text saves stripped trailing fixed-width spaces. Raw files remain immutable and provenance-hashed. Processing copies restore only trailing ASCII spaces to the declared record width; field bytes and parsed values are unchanged.",
+  "files": [
+    {
+      "vintage": 2020,
+      "basename": "mass_1.mas20",
+      "expected_width": 135,
+      "candidate_rows": 3558,
+      "rows_right_padded": 3556,
+      "min_candidate_width_before": 129,
+      "max_candidate_width_before": 135,
+      "raw_sha256": "e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307",
+      "normalized_sha256": "f361cca274a7791aac0d408b263815f01d42fe545ebf9260c8a4a7c383e46f98",
+      "operation": "right-pad candidate data records with ASCII spaces only; no non-whitespace byte changed"
+    },
+    {
+      "vintage": 2020,
+      "basename": "rct1.mas20",
+      "expected_width": 144,
+      "candidate_rows": 3558,
+      "rows_right_padded": 1398,
+      "min_candidate_width_before": 129,
+      "max_candidate_width_before": 144,
+      "raw_sha256": "e6ba1d2256f90053464c48e24d44691828dc49820ce64054aa418d834cc18e90",
+      "normalized_sha256": "6b21a9790ba6e38532fa52a963028e2dba602a5ebf4c198c6646bb67c1a61459",
+      "operation": "right-pad candidate data records with ASCII spaces only; no non-whitespace byte changed"
+    },
+    {
+      "vintage": 2020,
+      "basename": "rct2_1.mas20",
+      "expected_width": 144,
+      "candidate_rows": 3558,
+      "rows_right_padded": 1258,
+      "min_candidate_width_before": 129,
+      "max_candidate_width_before": 144,
+      "raw_sha256": "78765c7b3f3c991ce2b6ff3b5c086a135aad1807d07819f806ab9a9150a4c2c7",
+      "normalized_sha256": "7c62624b8c7328b6420f8a29dceea3ced9744c6cef8519a4699f89fdbc34b788",
+      "operation": "right-pad candidate data records with ASCII spaces only; no non-whitespace byte changed"
+    },
+    {
+      "vintage": 2016,
+      "basename": "mass16.txt",
+      "expected_width": 123,
+      "candidate_rows": 3436,
+      "rows_right_padded": 3401,
+      "min_candidate_width_before": 118,
+      "max_candidate_width_before": 123,
+      "raw_sha256": "2167f57a2a98331e4649b2dd2b658a9006ed4fba1975729ebfe52a42b4b9218a",
+      "normalized_sha256": "f1ac73068175cdc7aea11a92291ce100f380bb0089998effeac6b9e3f1a6943f",
+      "operation": "right-pad candidate data records with ASCII spaces only; no non-whitespace byte changed"
+    },
+    {
+      "vintage": 2016,
+      "basename": "rct1-16.txt",
+      "expected_width": 120,
+      "candidate_rows": 3436,
+      "rows_right_padded": 1330,
+      "min_candidate_width_before": 109,
+      "max_candidate_width_before": 120,
+      "raw_sha256": "f0200d338083021d6077f768390f6447f8dc32f4677aef27a23a8ad4a201b853",
+      "normalized_sha256": "ee4dea454412a5574f53d56e35a8b0a5b882bb59f5573c1f8973db789f043bf5",
+      "operation": "right-pad candidate data records with ASCII spaces only; no non-whitespace byte changed"
+    },
+    {
+      "vintage": 2016,
+      "basename": "rct2-16.txt",
+      "expected_width": 120,
+      "candidate_rows": 3436,
+      "rows_right_padded": 1187,
+      "min_candidate_width_before": 109,
+      "max_candidate_width_before": 120,
+      "raw_sha256": "cd7ff26ccde00659e2101afd8bf731e2e30a0645ac54e4ca402d5e17c49f6f0f",
+      "normalized_sha256": "302fa85574a71dc354a737f4fb99d65c6f60870376afef5a2113c3c270fe5604",
+      "operation": "right-pad candidate data records with ASCII spaces only; no non-whitespace byte changed"
+    },
+    {
+      "vintage": 2012,
+      "basename": "mass.mas12",
+      "expected_width": 123,
+      "candidate_rows": 3353,
+      "rows_right_padded": 3322,
+      "min_candidate_width_before": 118,
+      "max_candidate_width_before": 123,
+      "raw_sha256": "81e887c71c2c54c76caea36fd861b195a7f3eeb77d04b520e05fa97e0eedd7f3",
+      "normalized_sha256": "df8f971bf81cce360e80db8cc5945e366dcf7b1c9012a3c04028e1b6ecabd989",
+      "operation": "right-pad candidate data records with ASCII spaces only; no non-whitespace byte changed"
+    },
+    {
+      "vintage": 2012,
+      "basename": "rct1.mas12",
+      "expected_width": 120,
+      "candidate_rows": 3353,
+      "rows_right_padded": 1308,
+      "min_candidate_width_before": 109,
+      "max_candidate_width_before": 120,
+      "raw_sha256": "57695d25a8079c097e3b97c12a2b8d87d235cba52f6b1e0ebe97e2c3ad5116c8",
+      "normalized_sha256": "c3e606077f88d7017a56cf1ea19e550324c7795ac6dddb35b774398eabf33a5a",
+      "operation": "right-pad candidate data records with ASCII spaces only; no non-whitespace byte changed"
+    },
+    {
+      "vintage": 2012,
+      "basename": "rct2.mas12",
+      "expected_width": 120,
+      "candidate_rows": 3353,
+      "rows_right_padded": 1172,
+      "min_candidate_width_before": 109,
+      "max_candidate_width_before": 120,
+      "raw_sha256": "f0fe09cb2629caca57815af1490803b43befde25edd1820b9816c48c305e5902",
+      "normalized_sha256": "7ddbadbbef36017fec5b768b657c5e2afb6e390eaf3f109927ad9a24c45af350",
+      "operation": "right-pad candidate data records with ASCII spaces only; no non-whitespace byte changed"
+    }
+  ]
+}
